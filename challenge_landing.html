@@ -14,8 +14,8 @@
   --bg: #080808;
   --bg2: #0F0F0F;
   --white: #F0EDE6;
-  --muted: #888;
-  --dim: #444;
+  --muted: #AAAAAA;
+  --dim: #777;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior:smooth; }
@@ -66,7 +66,7 @@ h2 { font-family: 'Black Han Sans', sans-serif; font-size: clamp(36px, 6vw, 64px
 .hero-title .r { color: var(--red); display: block; }
 .hero-title .w { color: var(--white); display: block; }
 .hero-title .s { font-size: clamp(40px, 8vw, 80px); color: var(--white); display: block; }
-.hero-sub { font-size: clamp(16px, 2.5vw, 20px); font-weight: 300; color: var(--muted); line-height: 1.8; margin-bottom: 40px; }
+.hero-sub { font-size: clamp(16px, 2.5vw, 20px); font-weight: 300; color: #BBBBBB; line-height: 1.8; margin-bottom: 40px; }
 .hero-sub b { color: var(--white); font-weight: 500; }
 .hero-teams { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; }
 .team-pill {
@@ -135,7 +135,7 @@ h2 { font-family: 'Black Han Sans', sans-serif; font-size: clamp(36px, 6vw, 64px
 .team-card.red .tc-name { color: #FF5555; }
 .team-card.blue .tc-name { color: #4488FF; }
 .tc-coach { font-size: 12px; font-weight: 500; color: var(--dim); letter-spacing: 2px; margin-bottom: 20px; }
-.tc-desc { font-size: 15px; font-weight: 400; color: var(--muted); line-height: 1.8; margin-bottom: auto; }
+.tc-desc { font-size: 15px; font-weight: 400; color: #CCCCCC; line-height: 1.8; margin-bottom: auto; }
 .tc-target { margin-top: 24px; border-radius: 12px; padding: 20px 24px; }
 .team-card.red .tc-target { background: rgba(255,45,45,0.07); border: 1px solid rgba(255,45,45,0.2); }
 .team-card.blue .tc-target { background: rgba(45,111,255,0.07); border: 1px solid rgba(45,111,255,0.2); }
@@ -152,7 +152,7 @@ h2 { font-family: 'Black Han Sans', sans-serif; font-size: clamp(36px, 6vw, 64px
   padding: 24px 20px; display: flex; justify-content: space-between; align-items: center;
 }
 .s-name { font-size: 15px; font-weight: 500; color: var(--white); }
-.s-sub { font-size: 12px; color: var(--dim); margin-top: 3px; }
+.s-sub { font-size: 12px; color: #999; margin-top: 3px; }
 .s-pts { font-family: 'Black Han Sans', sans-serif; font-size: 28px; color: var(--red); white-space: nowrap; }
 .s-pts.orange { color: var(--orange); }
 .score-note { margin-top: 16px; background: rgba(255,45,45,0.05); border: 1px solid rgba(255,45,45,0.1); border-radius: 14px; padding: 18px 24px; font-size: 14px; color: var(--muted); line-height: 1.8; }
@@ -172,11 +172,11 @@ h2 { font-family: 'Black Han Sans', sans-serif; font-size: clamp(36px, 6vw, 64px
 .mr-wk { font-size: 10px; font-weight: 700; letter-spacing: 2px; color: var(--dim); margin-bottom: 3px; }
 .mission-row.red .mr-wk { color: rgba(255,45,45,0.5); }
 .mission-row.orange .mr-wk { color: rgba(255,107,0,0.5); }
-.mr-date { font-size: 13px; font-weight: 700; color: var(--dim); }
+.mr-date { font-size: 13px; font-weight: 700; color: #999; }
 .mr-ico { font-size: 28px; flex-shrink: 0; width: 36px; text-align: center; }
 .mr-body { flex: 1; }
 .mr-title { font-size: 16px; font-weight: 700; color: var(--white); margin-bottom: 3px; }
-.mr-desc { font-size: 13px; font-weight: 300; color: var(--dim); line-height: 1.6; }
+.mr-desc { font-size: 13px; font-weight: 300; color: #999; line-height: 1.6; }
 .mr-badge { font-size: 11px; font-weight: 700; padding: 5px 12px; border-radius: 100px; flex-shrink: 0; }
 .mission-row.red .mr-badge { background: rgba(255,45,45,0.1); color: rgba(255,45,45,0.7); border: 1px solid rgba(255,45,45,0.2); }
 .mission-row.orange .mr-badge { background: rgba(255,107,0,0.1); color: rgba(255,107,0,0.7); border: 1px solid rgba(255,107,0,0.2); }
@@ -186,7 +186,7 @@ h2 { font-family: 'Black Han Sans', sans-serif; font-size: clamp(36px, 6vw, 64px
 .fee-box { background: #111; border: 1px solid #1C1C1C; border-radius: 20px; padding: 40px; margin-top: 36px; }
 .fee-row { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; border-bottom: 1px solid #1A1A1A; font-size: 15px; }
 .fee-row:last-child { border-bottom: none; }
-.fee-row .fl { color: var(--muted); }
+.fee-row .fl { color: #CCCCCC; }
 .fee-row .fr { font-weight: 700; color: var(--white); }
 .fee-total { display: flex; justify-content: space-between; align-items: baseline; padding-top: 20px; margin-top: 8px; }
 .fee-total .fl { font-size: 17px; font-weight: 700; color: var(--white); }
@@ -195,10 +195,10 @@ h2 { font-family: 'Black Han Sans', sans-serif; font-size: clamp(36px, 6vw, 64px
 
 .payback-box { margin-top: 20px; background: linear-gradient(135deg, #0A1A0A, #061006); border: 2px solid rgba(76,175,80,0.35); border-radius: 18px; padding: 28px 32px; }
 .pb-title { font-size: 12px; font-weight: 700; letter-spacing: 3px; color: #4CAF50; margin-bottom: 8px; }
-.pb-desc { font-size: 14px; font-weight: 300; color: var(--muted); line-height: 1.7; margin-bottom: 20px; }
+.pb-desc { font-size: 14px; font-weight: 300; color: #CCCCCC; line-height: 1.7; margin-bottom: 20px; }
 .pb-desc b { color: #4CAF50; font-weight: 700; }
 .pb-items { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
-.pb-item { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: var(--muted); line-height: 1.6; }
+.pb-item { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: #CCCCCC; line-height: 1.6; }
 .pb-check { width: 22px; height: 22px; border-radius: 50%; background: rgba(76,175,80,0.12); border: 1px solid rgba(76,175,80,0.25); display: flex; align-items: center; justify-content: center; font-size: 11px; color: #4CAF50; flex-shrink: 0; margin-top: 1px; }
 .pb-result { background: rgba(76,175,80,0.08); border: 1px solid rgba(76,175,80,0.18); border-radius: 12px; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; }
 .pb-result .fl { font-size: 14px; color: var(--dim); }
@@ -210,11 +210,11 @@ h2 { font-family: 'Black Han Sans', sans-serif; font-size: clamp(36px, 6vw, 64px
 .ib-item { background: #111; border: 1px solid #1C1C1C; border-radius: 16px; padding: 24px 18px; text-align: center; }
 .ib-ico { font-size: 36px; margin-bottom: 12px; display: block; }
 .ib-name { font-size: 15px; font-weight: 700; color: var(--white); margin-bottom: 6px; }
-.ib-sub { font-size: 12px; color: var(--dim); line-height: 1.6; }
+.ib-sub { font-size: 12px; color: #999; line-height: 1.6; }
 .ib-rules { background: #111; border: 1px solid #1C1C1C; border-radius: 16px; padding: 24px 28px; }
 .ib-rule-title { font-size: 12px; font-weight: 700; letter-spacing: 3px; color: #FFCC00; margin-bottom: 16px; }
 .ib-rule-item { display: flex; align-items: flex-start; gap: 14px; padding: 12px 0; border-bottom: 1px solid #161616; font-size: 14px; color: var(--muted); line-height: 1.6; }
-.ib-rule-item:last-child { border-bottom: none; }
+.ib-rule-item:last-child { border-bottom: none; color: #CCCCCC; }
 .ib-num { width: 26px; height: 26px; border-radius: 50%; background: rgba(255,204,0,0.1); border: 1px solid rgba(255,204,0,0.2); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; color: #FFCC00; flex-shrink: 0; margin-top: 1px; }
 
 /* CTA */
@@ -223,7 +223,7 @@ h2 { font-family: 'Black Han Sans', sans-serif; font-size: clamp(36px, 6vw, 64px
 .cta-inner { max-width: 600px; margin: 0 auto; position: relative; z-index: 2; }
 .cta-title { font-family: 'Black Han Sans', sans-serif; font-size: clamp(36px, 7vw, 72px); line-height: 1.1; margin-bottom: 16px; }
 .cta-title span { color: var(--red); }
-.cta-sub { font-size: 15px; color: var(--dim); margin-bottom: 36px; line-height: 1.8; }
+.cta-sub { font-size: 15px; color: #AAAAAA; margin-bottom: 36px; line-height: 1.8; }
 .cta-btn { display: inline-block; background: var(--red); color: var(--white); font-size: 20px; font-weight: 700; padding: 22px 56px; border-radius: 100px; text-decoration: none; letter-spacing: 1px; transition: background .2s, transform .15s; }
 .cta-btn:hover { background: #e02020; transform: scale(1.03); }
 .cta-warn { font-size: 13px; color: var(--dim); margin-top: 14px; line-height: 1.8; }
@@ -265,7 +265,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba
       <div class="team-pill blue">🦴 이웃집 빼빼로</div>
     </div>
     <a href="https://forms.gle/q7BpvBWWVfA5vcCB7" target="_blank" class="hero-cta">지금 신청하기</a>
-    <div class="hero-deadline">신청서 + 인바디 동시 제출 후 신청 확정<br><b>마감 4/22(화) 오후 6시</b></div>
+    <div class="hero-deadline">신청서 + 인바디 동시 제출 후 신청 확정<br><b>마감 4/21(화) 오후 6시</b></div>
     <div class="hero-stats">
       <div><div class="h-stat-num">6주</div><div class="h-stat-label">챌린지 기간</div></div>
       <div><div class="h-stat-num">4/22~6/1</div><div class="h-stat-label">일정</div></div>
@@ -282,7 +282,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba
   <div class="section">
     <div class="tag gold">Rewards</div>
     <h2>열심히 하면<br><span style="color:var(--gold)">이만큼 돌아옵니다</span></h2>
-    <p style="font-size:15px;color:var(--muted);margin-bottom:32px;line-height:1.8;">팀 상금 + 개인 상금 + 회원권 추가. 6주의 노력을 제대로 보상합니다.</p>
+    <p style="font-size:15px;color:#CCCCCC;margin-bottom:32px;line-height:1.8;">팀 상금 + 개인 상금 + 회원권 추가. 6주의 노력을 제대로 보상합니다.</p>
     <div class="prize-hero">
       <div class="ph-left">
         <div class="label">🏆 우승팀 전원</div>
@@ -308,7 +308,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba
   <div class="section">
     <div class="tag red">Team Selection</div>
     <h2>나는 어느 팀?</h2>
-    <p style="font-size:15px;color:var(--muted);line-height:1.8;">목표만 달라요. <b style="color:var(--white)">열심히 하는 건 똑같이.</b></p>
+    <p style="font-size:15px;color:#CCCCCC;line-height:1.8;">목표만 달라요. <b style="color:var(--white)">열심히 하는 건 똑같이.</b></p>
     <div class="teams-grid">
       <div class="team-card red">
         <div class="tc-bar"></div>
@@ -343,7 +343,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba
       <div class="score-item"><div><div class="s-name">인바디 변화율</div><div class="s-sub">노력할수록 무제한</div></div><div class="s-pts orange">무제한</div></div>
       <div class="score-item"><div><div class="s-name">주말 야외 운동</div><div class="s-sub">2주에 1회 · 개인만</div></div><div class="s-pts">10점</div></div>
     </div>
-    <div class="score-note">
+    <div class="score-note" style="color:#CCCCCC;">
       팀 순위 = 팀원 점수 <b>평균</b><br>
       내가 미션 안 하면 팀 전체 점수 깎임 → 서로 챙기는 구조 자연스럽게 만들어집니다.
     </div>
@@ -356,8 +356,8 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba
 <section class="mission-section">
   <div class="section">
     <div class="tag orange">6-Week Journey</div>
-    <h2>평일엔 팀과 체육관에서<br><span style="color:var(--orange)">주말엔 팀과 야외에서</span></h2>
-    <p style="font-size:15px;color:var(--muted);margin-bottom:8px;line-height:1.8;">매주 미션이 바뀝니다 — 힌트만 드릴게요.</p>
+    <h2 style="color:var(--white)">평일엔 팀과 체육관에서<br><span style="color:var(--orange)">주말엔 팀과 야외에서</span></h2>
+    <p style="font-size:15px;color:#CCCCCC;margin-bottom:8px;line-height:1.8;">매주 미션이 바뀝니다 — 힌트만 드릴게요.</p>
     <div class="mission-list">
       <div class="mission-row red">
         <div class="mr-week"><div class="mr-wk">WEEK 1</div><div class="mr-date">4/22</div></div>
@@ -443,7 +443,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba
       <div class="ib-rule-item"><div class="ib-num">①</div>1인 1회 측정만 인정 — 여러 번 측정 불가</div>
       <div class="ib-rule-item"><div class="ib-num">②</div>시작·중간·최종 3회 모두 동일 복장 필수</div>
       <div class="ib-rule-item"><div class="ib-num">③</div>허용 복장: 반팔+반바지 / 레깅스+브라탑 등 — 하나로 6주 통일</div>
-      <div class="ib-rule-item"><div class="ib-num">④</div>시작 제출: <b style="color:var(--white)">4/22(화) 오후 6시</b> / 중간: 5/6(화) / 최종: 5/29~6/1</div>
+      <div class="ib-rule-item"><div class="ib-num">④</div>시작 제출: <b style="color:var(--white)">4/21(화) 오후 6시</b> / 중간: 5/6(화) / 최종: 5/29~6/1</div>
     </div>
   </div>
 </section>
@@ -456,7 +456,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba
     <div class="cta-title">6주 후<br><span>당신은 달라져 있을 거예요</span></div>
     <p class="cta-sub">신청서 + 인바디 동시 제출 후 신청 확정<br>챌린지 시작 4/22(수) · 종료 6/1(일)</p>
     <a href="https://forms.gle/q7BpvBWWVfA5vcCB7" target="_blank" class="cta-btn">신청 폼 바로가기</a>
-    <div class="cta-warn">마감 <b>4/22(화) 오후 6시</b> · 신청서 + 인바디 동시 제출 필수</div>
+    <div class="cta-warn">마감 <b>4/21(화) 오후 6시</b> · 신청서 + 인바디 동시 제출 필수</div>
     <div class="hashtags">
       #크로스핏발리인미사 #크로스핏메이커스<br>
       #크로스핏발리_이웃집통통이 #크로스핏발리_이웃집빼빼로<br>
